@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Ann Traders</title>
+  </head>
+  <body>
+    <h1>Welcome to Ann Traders User Portal</h1>
+    
+    <form action="{% url 'search_results' %}" method="get">
+      <input name= "q" type= "text" placeholder="Search..."/>
+    <button id="search_submit" type="submit" >Submit</button>
+    </form>
+  </body>
+</html>
